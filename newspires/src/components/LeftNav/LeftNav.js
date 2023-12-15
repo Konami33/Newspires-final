@@ -12,7 +12,7 @@ const LeftNav = () => {
 
     return (
         <div>
-            <h4>All categories</h4>
+            <h4>All categories for Newspapers</h4>
             <div className='d-flex  align-content-start flex-wrap d-lg-block categories'>
                 {
                     categories.map(category => <p key = {category.id}>
